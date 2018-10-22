@@ -38,7 +38,7 @@ def __main__():
     y.append(result)
 
     dx = dx + step
-  with open('../Plotting/data/chshvsINS.plot','wb') as fp:
+  with open('../PlottingMatplotlib/data/chshvsINS.plot','wb') as fp:
     pickle.dump([x,y],fp)  
 if __name__=="__main__":
   __main__()
